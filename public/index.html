@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js1/billing.js"></script>
+
+</head>
+<html>
+<body class="body text-center pt-3">
+     <div class="container">
+         <div class="head">
+         <div class="header">
+             <div class="row text-center pt-3">
+                 <div class="col-md-12">
+                     <h4>BILL DESK</h4>
+                 </div>
+             </div>
+         </div>
+         <div class="menu">
+             <div class="row text-center pt-3">
+                 <div class="col-md-6 col-sm-2">
+                     <a href="admin.html"><input type="submit" value="Admin" class="btn btn-primry btn-round" style="width:100px;" /></a>
+                 </div>
+                 <div class="col-md-6 col-sm-2">
+                    <a href="inventry.html"><input type="submit" value="inventry" class="btn btn-primry btn-round" style="width:100px;"/></a>
+                </div>
+             </div>
+         </div>
+         </div>
+         <div class="row text-center pt-3">
+             <div class="col-md-6">
+                 <p>Invoice</p>
+             </div>
+             <div class="col-md-6">
+                <p>DATE</p>
+            </div>
+         </div>
+         <div class="text">
+             <div class="row text-center">
+                 <div class="col-12">
+                     <h4>A1 BAKERY</h4>
+                 </div>
+             </div>
+             <div class="row text-center">
+                <div class="col-12">
+                    <h6>Adayar</h6>
+                    <h6>Chennai 600020</h6>
+                </div>
+            </div>
+         </div>                                       
+
+         <hr>
+         <div class="billing">
+             <div class="row">
+                 <div class="col-md-4">
+                    <select class="form-control border-primary" id="select">
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                 </div>
+                 <div class="col-md-4">
+                    <input type="text" value="" id="qty" class="form-control" placeholder="Enter Here">
+
+                 </div>
+                 <div class="col-md-4">
+                    <input type="submit" value="ADD" id="submit" class="btn btn-sucess btn-round" name="submit">
+                 </div>
+             </div>
+         </div>
+         <hr>
+         <div class="data">
+             <div class="row">
+                 <div class="col-md-12">
+                    <table class="table">
+                        <thead>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>qty</th>
+                            <th>price</th>
+                        </thead>
+                        <tbody id="tbody">
+
+                        </tbody>
+                    </table><hr>
+                   <div class="total">
+                   Total:RS <span id="total" style="font-size:20px;"></span>
+                   </div>
+                 </div>
+             </div>
+         </div>
+         <br>
+         <div class="footer">
+            <div class="row text-center pt-3">
+                <div class="col-md-12">
+                    <h4>Triodesk</h4>
+                </div>
+            </div>
+        </div>
+     </div>
+
+</body>
+</html>
+
+
